@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+
+
+.hpJumbo{
+	position: relative;
+	overflow:hidden;
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhcma.ca%2Fwp-content%2Fuploads%2F2017%2F05%2FDCMP_Learning-and-Innovation-Centre_Aug-2016-e1496249595887.jpg&f=1&nofb=1");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	right:0px;
+	left:0px;
+}
+.hpJumbo::before{
+	content:"";
+	background-color:#C0C0C0;
+	position:absolute;
+	top: 0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	opacity:.75;
+	z-index: 1;
+}
+
+.hpBtn{
+	font-size: 1.4em;
+	position:relative;
+	z-index:2;
+}
+.hpText{
+	position:relative;
+	z-index:2;
+}
+
+footer {
+	color:#000000;
+	font-size:20px;
+}
+
+footer a{
+	color:#000000;
+}
+footer a:visited{
+	color:#000000;
+}
+footer a:hover {
+	color:white;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2F6%2F9%2F0%2F287486-free-geometric-background-1920x1080.jpg&f=1&nofb=1");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.douglasbg{
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhcma.ca%2Fwp-content%2Fuploads%2F2017%2F05%2FDCMP_Learning-and-Innovation-Centre_Aug-2016-e1496249595887.jpg&f=1&nofb=1");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
